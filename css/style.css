@@ -1,0 +1,145 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: FuturaMediumC;
+    position: relative;
+
+}
+
+/*About-us-start*/
+
+.about-us-wrapper{
+    width: 100%;
+}
+
+.about-us-title{
+    display: flex;
+    width: 50%;
+    border-bottom: 1px solid #C4A676;
+    justify-content: flex-end;
+    color: #C4A676;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.about-us-info{
+    margin-top: 81px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-us-info img{
+    width: 50%;
+    margin-right: 38px;
+}
+
+.about-us-info p{
+    width: 30%;
+}
+
+
+/*About-us-end*/
+
+
+
+
+
+
+
+/*Service-start*/
+
+.services-wrapper{
+    width: 100%;
+    background: #F8F8F8;
+    padding-top: 110px;
+}
+
+.services-title{
+    display: flex;
+    width: 50%;
+    border-bottom: 1px solid #C4A676;
+    justify-content: flex-end;
+    color: #C4A676;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 110px;
+}
+
+.services-container{
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.service-point-wrapper{
+    width: 50%;
+    display: flex;
+}
+
+.service-point-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-point{
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.service-point img{
+    width: 70px;
+}
+
+.service-score{
+    width: 50%;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.service-score-wrapper{
+    background: white;
+    width: 60%;
+    padding: 63px 42px;
+    margin: 0px auto;
+}
+
+.line-gold{
+    width: 320px;
+    height: 1px;
+    background: #C4A676;
+    margin-bottom: 66px;
+}
+
+.service-score-text{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.service-score-wrapper span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #C4A676;
+}
+
+/*Service-end*/
