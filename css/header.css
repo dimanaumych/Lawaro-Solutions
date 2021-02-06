@@ -1,36 +1,24 @@
-@font-face {
-    font-family: 'FuturaMediumC';
-    font-style: normal;
-    font-weight: 400;
-    src: local('FuturaMediumC'), local('FuturaMediumC'), url('../fonts/FuturaMediumC.woff') format('woff2'), url('../fonts/FuturaMediumC.woff') format('woff')
-}
 a {
     text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
 }
     .left_sidebar{
         display: none;
     }
 .header-wrapper{
     width: 100%;
+    background-color: white;
 }
 .header-menu-wrapper{
     width: 100%;
     position: relative;
 }
-.header-wrapper{
-    width: 100%;
-    height: 650px;
-    position: relative;
-    background-position: bottom;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    transition: 1.5s;
-}
 header{
-    width: 100%;
-    height: 100px;
+    width: 1190px;
+    height: 130px;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -39,191 +27,203 @@ header{
     font-size: .9rem;
     position: relative;
     z-index: 9;
-    font-family: 'FuturaMediumC';
+    font-family: 'Roboto';
+}
+.logo{
+    width: 200px;
 }
 .header-menu ul{
     display: flex;
+    align-items: center;
 }
-.header-menu li{
+.header-menu ul li{
     margin-left: 17px;
     margin-right: 17px;
     font-size: 1rem;
-    font-family: 'FuturaMediumC';
+    font-family: 'Roboto';
     letter-spacing: 1px;
     cursor: pointer;
     border-bottom: 1.5px solid transparent;
-}
-.header-menu li:hover{
-    border-bottom:1.5px solid #1BA1FB;
-}
-header select{
-    background: none;
-    border: none;
-    color: white;
-    font-family: 'FuturaMediumC';
-    font-size: 1rem;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-header option{
-    background: none;
-    color: black;
-}
-.laguage-select{
-    padding-right: 10px;
+    list-style: none;
 }
 .phone-select{
     padding-right: 10px;
 }
-/* POPUP */
-.popup{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-}
-.popup-call-back{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-
-}
-.popup .popup-content{
-    width: 470px;
-    height: auto;
-    max-height: 650px;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    background-color: white;
-    text-align: center;
+.header-contact-wrapper{
     display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-}
-
-.popup-call-back .popup-content{
-    width: 370px;
-    height: auto;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1.5rem 3rem;
-    background-color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.popup-title{
-    font-family: "FuturaMediumC";
-    color: #5A5A5A;
-    font-size: 1.6rem;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    width: 90%;
-}
-.popup-call-back form input{
-    margin: 0px auto;
-    width: 90%;
-    height: 20px;
-    padding: 5px 0px 5px 2px;;
-    margin-bottom: 20px;
-    border: none;
-    border-bottom: 1px solid #36A7FC;
-    color: #0093D0;
-}
-.popup-call-back form textarea{
-    width: 90%;
-    margin: 0px auto;
-    height: 100px;
-    margin-bottom: 20px;
-    border: none;
-    border-bottom: 1px solid #36A7FC;
-    color: #0093D0;
-    resize: none;
-}
-.popup-call-back form input::placeholder {
-    color: #5A5A5A;
-    font-size: .9rem;
-    font-family: "FuturaMediumC";
-    vertical-align: top;
-}
-.popup-call-back form textarea::placeholder {
-    color: #5A5A5A;
-    font-size: .9rem;
-    font-family: "FuturaMediumC";
-    vertical-align: top;
-}
-
-.popup-call-back form{
-    text-align: center;
-}
-.popup-form-button{
-    width: 90%;
+    justify-content: center;
+    width: 220px;
     height: 50px;
-    text-align: center;
-    color: white;
-    border: 1px solid transparent;
-    border-radius: 40px;
-    background: linear-gradient(90deg, #A0DEFD 0%, #267BC2 100%);
+    border: 2px solid rgba(196, 166, 118, 1);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.header-contact-wrapper p{
+    color: black;
+    line-height: 50px;
+    font-size: 1.1rem;
+}
+
+.header-navigation-wrapper{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(196, 166, 118, 1);
+}
+.header-navigation-wrapper nav ul{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-navigation-wrapper nav ul li{
+    font-family: Roboto;
+    font-size: 1.1rem;
     text-transform: uppercase;
-    font-size: 1rem;
-    font-family: "FuturaMediumC";
-    margin-top: 15px;
-    margin-bottom: 30px;
-    cursor: pointer;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 2px solid transparent;
 }
-#user-details{
-    height: 100px;
+.header-navigation-wrapper nav ul li:hover{
+    border-bottom: 2px solid rgba(196, 166, 118, 1);
 }
-.popup-close{
-    position: absolute;
-    right: 35px;
-    top: 35px;
-    cursor: pointer;
-}
-/* POPUP */
 
 
+.header-banner{
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/header/header_banner.png");
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.header-banner img{
+    width: 250px;
+}
+.header-banner-title, .header-banner-text{
+    font-family: Roboto;
+    /*margin-bottom: 10px;*/
+}
+.header-banner-text{
+    font-size: 2.2rem;
+    color: white;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width: 1250px) {
+    header {
+        width: 1000px;
+        height: 130px;
+    }
+    .header-navigation-wrapper nav ul{
+        display: flex;
+        width: 950px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-navigation-wrapper nav ul li{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1024px) {
+    header {
+        width: 760px;
+        height: 100px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .header-contact-wrapper p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .laguage-select {
+        display: none;
+    }
+    .header-menu{
+        align-items: center;
+    }
+    .header-menu ul li{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: .85rem;
+        font-family: 'Roboto';
+        letter-spacing: 0px;
+        cursor: pointer;
+    }
+    .header-contact-wrapper{
+        width: 180px;
+        height: 40px;
+    }
+    .header-contact-wrapper p{
+        line-height: 30px;
+    }
+    .header-navigation-wrapper nav ul{
+        display: flex;
+        width: 700px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-navigation-wrapper nav ul li{
+        font-size: .82rem;
+        text-align: center;
+    }
+}
+@media (max-width: 769px) {
+    .header-menu{
+        display: none;
+    }
+    .header-navigation-wrapper{
+        display: none;
+    }
+    .phone-select{
+        display: none;
+    }
+    .social-nav{
+        display: none;
+    }
+    .banner-info-main-text {
+        margin-top: 50px;
+    }
+    header{
+        width: 420px;
+    }
     .header-menu-wrapper{
         width: 90%;
         margin: 0 auto;
     }
     .header-contact-wrapper{
-        margin-left: 26%;
+        margin-left: 15%;
     }
     .header-menu{
         display: none;
     }
     .logo{
-        width: 200px;
+        margin-left: 10%;
     }
     header{
-        position: absolute;
-        width: 90%;
-        margin: 0 auto;
+        /*position: absolute;*/
+        width: 100%;
         display: flex;
         justify-content: normal;
         z-index: 99;
-
     }
     .header-contact{
         margin: 0px auto;
@@ -246,7 +246,7 @@ header option{
     }
     .mobile-menu-header{
         width: 100%;
-        /*background-color: #z;*/
+        background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -308,8 +308,8 @@ header option{
         color: black;
     }
     .mobile-menu-header-logo{
-        margin-top: 5px;
-        width: 200px;
+        width: 150px;
+        margin-top: 20px;
     }
     /* Demo Buttons Style */
     .codrops-demos {
@@ -324,11 +324,11 @@ header option{
         text-decoration: none;
         /*text-transform: uppercase;*/
         letter-spacing: 1px;
-        font-weight: 500;
+        font-weight: 800;
         border-radius: 10px;
         font-size: 20px;
         border: 2px solid transparent;
-        font-family: 'FuturaMediumC';
+
     }
 
     .codrops-demos_sidebar a {
@@ -337,8 +337,9 @@ header option{
         padding: 0.5em 1.2em;
         outline: none;
         text-decoration: none;
+        /*text-transform: uppercase;*/
         letter-spacing: 1px;
-        font-weight: 500;
+        font-weight: 800;
         border-radius: 10px;
         border: 2px solid transparent;
         display: flex;
@@ -346,14 +347,15 @@ header option{
         align-items: center;
         align-content: center;
         color: black;
+        font-family: Roboto;
     }
     .codrops-demos_sidebar{
-        font-family: 'FuturaMediumC';
+        font-family: Roboto;
         /*position: absolute;*/
         top: 20%;
         bottom: 20%;
         padding-top: 1em;
-        font-size: 1.4rem;
+        font-size: 1.2em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -367,6 +369,7 @@ header option{
         left: -80px;
         top: 22px;
         z-index: 1000;
+        cursor: pointer;
     }
     .cancel_button{
         width: 30px;
@@ -386,15 +389,82 @@ header option{
         color: black;
         border-color: black;
     }
-@media (max-width: 450px) {
-    .mobile-menu-header-logo {
-        margin-top: 5px;
-        width: 160px;
+}
+@media (max-width: 660px){
+    .header-contact-wrapper{
+        display: none;
+    }
+
+    .popup-call-back .popup-content{
+        width: 70%;
+        height: auto;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1.5rem 1.5rem;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .popup-title{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .popup-call-back-result .popup-content{
+        width: 70%;
+        height: auto;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1.5rem 1.5rem;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .popup-call-back-result .popup-content p{
+        font-size: 1.4rem;
     }
 }
-@media (max-width: 330px) {
-    .mobile-menu-header-logo {
-        margin-top: 25px;
-        width: 140px;
+@media (max-width: 525px) {
+    .back-call{
+        display: none;
+    }
+    .logo{
+        margin-left: 10%;
+    }
+    .header-contact-wrapper{
+       display: none;
+    }
+    .header-banner-title, .header-banner-text{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        width: 100%;
+    }
+    .menu_button{
+        width: 40px;
+        top: 26px
+    }
+    .header-banner img{
+        width: 220px;
+    }
+    .header-banner-text{
+        width: 90%;
+        font-size: 1.7rem;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 360px) {
+    .mobile-menu-header-logo{
+        width: 150px;
+        margin-top: 20px;
     }
 }

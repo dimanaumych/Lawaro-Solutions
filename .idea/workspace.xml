@@ -1,14 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1933f300-d225-4270-9b56-d002b8f99ebd" name="Default Changelist" comment="" />
+    <list default="true" id="1933f300-d225-4270-9b56-d002b8f99ebd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/our-clients-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/our-team-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaBookC-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaBookC-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaBookC-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaBookC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaBookC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaBookC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaDemiC-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaDemiC-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaDemiC-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaDemiC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaDemiC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaDemiC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaLightC-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaLightC-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaLightC-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaLightC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaLightC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaLightC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaMediumC-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaMediumC-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaMediumC-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaMediumC.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaMediumC.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FuturaMediumC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/CONTRIBUTING.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/CONTRIBUTING.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/README.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/component.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/config.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/fonts/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.less" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick-theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.less" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick/slick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/slick-1.8.1/slick/slick.scss" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,9 +93,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1933f300-d225-4270-9b56-d002b8f99ebd" name="Default Changelist" comment="" />
@@ -41,10 +120,22 @@
       <option name="presentableId" value="Default" />
       <updated>1612603777945</updated>
       <workItem from="1612603787957" duration="3033000" />
+      <workItem from="1612616526285" duration="10164000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
