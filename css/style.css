@@ -65,7 +65,36 @@ body{
 }
 
 /*OUR TEAM*/
-
+/*OUR CONTACT*/
+.contact-wrapper{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-info{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.contact-info div:nth-child(1){
+    width: 35%;
+}
+.contact-info div:nth-child(2), .contact-info div:nth-child(3){
+    width: 25%;
+}
+.contact-info-title{
+    font-family: Roboto;
+    font-size: 2rem;
+    color: #C4A676;
+    margin-bottom: 30px;
+}
+.contact-info p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+/*OUR CONTACT*/
 /*About-us-start*/
 .about-us-wrapper{
     width: 100%;
@@ -198,6 +227,9 @@ body{
         width: 200px;
         height: auto;
     }
+    .contact-info {
+        width: 960px;
+    }
 }
 @media (max-width: 1024px) {
     .our-team-slider-wrapper, .our-clients-slider-wrapper {
@@ -219,6 +251,9 @@ body{
         width: 180px;
         height: auto;
         margin:  0 auto;
+    }
+    .contact-info {
+        width: 90%;
     }
 }
 @media (max-width: 769px) {
@@ -248,6 +283,29 @@ body{
         font-size: 45px;
         line-height: 55px;
         text-align: center;
+    }
+}
+@media (max-width: 670px) {
+    .contact-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-info div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contact-info div:nth-child(1){
+        width: 90%;
+        padding-left: 10px;
+    }
+    .contact-info div:nth-child(2), .contact-info div:nth-child(3){
+        width: 90%;
+        padding-left: 20px;
     }
 }
 @media (max-width: 500px) {

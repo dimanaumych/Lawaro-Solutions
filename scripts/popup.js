@@ -3,9 +3,9 @@ let popup_close = document.querySelector('.popup-close');
 
 console.log(popup_elem);
 console.log(popup_close);
-    $('.call-back-btn').click(()=>{
-        popup_elem.style.display = 'flex';
-    });
+$('.header-contact-wrapper').click(()=>{
+    popup_elem.style.display = 'flex';
+});
 popup_close.addEventListener('click',()=>{
     popup_elem.style.display = 'none';
 });

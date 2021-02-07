@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/popup.css">
 	<link rel="shortcut icon" type="image/png" href="images/header/favicon.png"/>
 	<script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -77,6 +78,44 @@
 		<p class="header-banner-text">ОТКРЫТИЕ СЧЕТОВ В ИНОСТРАННЫХ БАНКАХ</p>
 	</div>
 </div>
+
+<div class="popup-call-back">
+	<div class="popup-content">
+		<a class="popup-close">
+			<img src="images/header/close_1.png">
+		</a>
+		<div class="block-name">
+			<p class="popup-title">Заказать Консультацию</p>
+			<div class="popup-title-underline"></div>
+		</div>
+		<p class="popup-text">Оставьте ваш номер телефона и наш менеджер вам перезвонит</p>
+		<form id = "form-popup"  method="POST">
+			<input type="text" name="first_name" id="user-name-popup" maxlength="40" placeholder= "Имя">
+			<input  type ="text" name="phone" id = "user-phone-popup" placeholder="Телефон" onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;" maxlength="15">
+			<p class="popup-text" style="margin-bottom: 10px">Консультация по какому вопросу инетересует?</p>
+			<textarea id = "user-details" type="comment" placeholder="Введите текст"></textarea>
+			<div class="radio-buttons-wrapper">
+				<div class="checkbox">
+					<input type="radio"  name="call" id="radio_one" value="call">
+					<label for="radio_one">Звонок</label>
+				</div>
+				<div class="checkbox">
+					<input type="radio"  name="call" id="radio_two" value="telegram">
+					<label for="radio_two">Telegram</label>
+				</div>
+				<div class="checkbox">
+					<input type="radio"  name="call" id="radio_three" value="viber">
+					<label for="radio_three">Viber</label>
+				</div>
+			</div>
+			<div class="call-me-button">
+				<button class="popup-form-button">Заказать звонок</button>
+			</div>
+		</form>
+
+	</div>
+</div>
+
 <div class="our-team-wrapper">
 	<div class="our-team-title">
 		<p>Наша команда</p>
@@ -152,6 +191,27 @@
 		<img class="our-client-right-arrow" src="images/front-page/right-arrow.png">
 	</div>
 </div>
+<div class="contact-wrapper">
+	<div class="our-client-title">
+		<p>Контакты</p>
+	</div>
+	<div class="contact-info">
+		<div>
+			<p class="contact-info-title">Адрес</p>
+			<p>г.Киев, ул.Хрещатик 10, офис 125</p>
+			<p>49005, г.Днепр, пр Д.Яворницкого 10, офис 342</p>
+		</div>
+		<div>
+			<p class="contact-info-title">Email</p>
+			<p>lawaro@gmail.com</p>
+		</div>
+		<div>
+			<p class="contact-info-title">Телефоны</p>
+			<a href="tel:096 222 2263"><p>+38 (096) 233 33 33</p></a>
+			<a href="tel:096 222 2263"><p>+38 (096) 233 33 33</p></a>
+		</div>
+	</div>
+</div>
 <!--<div class="about-us-wrapper">-->
 <!--	<div class="about-us-title">-->
 <!--		<p>О нас</p>-->
@@ -211,5 +271,6 @@
 <script src="scripts/header.js"></script>
 <script src="scripts/our-team-slider.js"></script>
 <script src="scripts/our-clients-slider.js"></script>
+<script src="scripts/popup.js"></script>
 </body>
 </html>
