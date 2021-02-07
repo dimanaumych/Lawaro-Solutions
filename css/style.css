@@ -215,6 +215,50 @@ body{
     color: #C4A676;
 }
 /*Service-end*/
+
+/*Adv-header-start*/
+
+.adv-header-plus{
+    width: 100%;
+}
+
+.icon-wrapper{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    padding: 75px 60px;
+    border-radius: 10px;
+}
+
+.icon-point{
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+.icon-point img{
+    display: flex;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.icon-point p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+/*Adv-header-end*/
+
+
+
 @media (max-width: 1250px) {
     .our-team-slider-wrapper, .our-clients-slider-wrapper{
         width: 90%;
