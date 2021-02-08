@@ -276,7 +276,8 @@ body{
     margin-top: 83px;
     margin-bottom: 83px;
     padding: 75px 60px;
-    border-radius: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgba(13, 13, 13, 0.12);
 }
 
 .icon-point{
@@ -303,7 +304,114 @@ body{
 
 /*Adv-header-end*/
 
+/*Adw-poster-Start*/
 
+.adw-poster{
+    width: 100%;
+    height: 320px;
+    background-image: url("../images/front-page/adw-poster.png");
+    display: flex;
+}
+
+.adw-poster-wrapper{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 0px auto;
+    align-items: center;
+    color: white;
+}
+
+.adw-poster-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    max-width: 500px;
+    color: #FFFFFF;
+}
+
+.adw-poster-button{
+    cursor: pointer;
+    width: 345px;
+    height: 50px;
+    border: 1px solid #C4A676;
+    box-sizing: border-box;
+    border-radius: 33px;
+    background: transparent;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.line-adw{
+    width: 100px;
+    height: 1px;
+    background: #C4A676;
+}
+
+/*Adw-poster-End*/
+
+
+/*article-start*/
+
+article{
+    width: 100%;
+    margin-top: 75px;
+}
+
+.article-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+.article-point{
+    display: flex;
+    margin-bottom: 72px;
+}
+
+.article-text-wrapper{
+    width: 70%;
+    padding: 61px 65px;
+    background: #F8F8F8;
+}
+
+.article-title{
+    font-family: Open Sans SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2D2D2D;
+    margin-bottom: 25px;
+}
+
+.article-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3C3C3C;
+}
+
+/*article-end*/
+
+
+/*Footer-Start*/
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+/*Footer-End*/
 
 @media (max-width: 1250px) {
     .bank-account{
