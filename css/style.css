@@ -3,6 +3,52 @@ body{
     margin: 0;
     position: relative;
 }
+/*Bank Account*/
+.bank-account-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+.bank-account{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    font-family: "Open Sans";
+}
+.bank-account:not(:last-child){
+    border-bottom: 1px solid #C4A676;
+}
+
+.bank-account img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid transparent;
+    border-radius: 180px;
+}
+.bank-account-title{
+    margin-top: 50px;
+    width: 25%;
+    letter-spacing: 1px;
+}
+.bank-account-text{
+    width: 40%;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+.bank-account-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(196, 166, 118, 1);
+    margin-top: 10px;
+}
+/*Bank Account*/
+
 /*OUR TEAM*/
 .our-team-wrapper, .our-clients-wrapper{
     margin-top: 150px;
@@ -260,6 +306,9 @@ body{
 
 
 @media (max-width: 1250px) {
+    .bank-account{
+        width: 90%;
+    }
     .our-team-slider-wrapper, .our-clients-slider-wrapper{
         width: 90%;
     }
@@ -276,6 +325,19 @@ body{
     }
 }
 @media (max-width: 1024px) {
+    .bank-account img{
+        width: 200px;
+        height: 200px;
+    }
+    .bank-account-title{
+        font-size: 1rem;
+    }
+    .bank-account-price{
+        font-size: 1rem;
+    }
+    .bank-account-text{
+        font-size: .9rem;
+    }
     .our-team-slider-wrapper, .our-clients-slider-wrapper {
         width: 90%;
     }
@@ -326,6 +388,22 @@ body{
         font-weight: bold;
         font-size: 45px;
         line-height: 55px;
+        text-align: center;
+    }
+}
+@media (max-width: 760px) {
+    .bank-account{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bank-account img{
+        width: 250px;
+        height: 250px;
+    }
+    .bank-account-text, .bank-account-title{
+        width: 100%;
+    }
+    .bank-account-title{
         text-align: center;
     }
 }
