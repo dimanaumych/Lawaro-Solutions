@@ -168,6 +168,12 @@ body{
 }
 .about-us-info p{
     width: 30%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3C3C3C;
 }
 
 
@@ -411,9 +417,72 @@ article{
     height: 400px;
 }
 
+footer{
+    width: 100%;
+    border-bottom: 1px solid #C4A676;
+}
+
+.footer-wrapper{
+    padding-bottom: 45px;
+    padding-top: 45px;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper img{
+    cursor: pointer;
+}
+
+.footer-button{
+    cursor: pointer;
+    width: 345px;
+    height: 50px;
+    border: 1px solid #C4A676;
+    box-sizing: border-box;
+    border-radius: 33px;
+    background: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.made-by{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
 /*Footer-End*/
 
+
+.service-point p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
 @media (max-width: 1250px) {
+
+
+
+    .footer-wrapper {
+        justify-content: space-around;
+    }
+
     .bank-account{
         width: 90%;
     }
@@ -432,7 +501,14 @@ article{
         width: 960px;
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1026px) {
+
+    .service-point-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .bank-account img{
         width: 200px;
         height: 200px;
@@ -469,7 +545,42 @@ article{
     .contact-info {
         width: 90%;
     }
+
+
+    .services-container {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .service-point-wrapper {
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    .article-img{
+        margin: 0px auto;
+    }
+
+    .adw-poster-wrapper {
+        flex-direction: column;
+    }
+
+    .service-point-container {
+        margin-top: 40px;
+    }
+
+    .article-point {
+        flex-direction: column;
+    }
+
+    .article-text-wrapper {
+        margin: 0px auto;
+    }
+
+
 }
+
 @media (max-width: 769px) {
     .our-team-slider-wrapper, .our-clients-slider-wrapper {
         width: 90%;
@@ -498,7 +609,34 @@ article{
         line-height: 55px;
         text-align: center;
     }
+
+    .article-img img{
+        width: 300px;
+    }
+
+    .line-gold {
+        width: 140px;
+        height: 1px;
+        background: #C4A676;
+        margin-bottom: 66px;
+    }
+    .about-us-info {
+        flex-direction: column;
+        margin: 0px auto;
+        margin-top: 81px;
+    }
+
+    .about-us-info img {
+        margin: 0px auto;
+    }
+
+    .about-us-info p{
+        margin: 0px auto;
+        margin-top: 40px;
+        width: 300px;
+    }
 }
+
 @media (max-width: 760px) {
     .bank-account{
         flex-direction: column;
@@ -514,6 +652,11 @@ article{
     .bank-account-title{
         text-align: center;
     }
+
+    .icon-wrapper {
+        flex-wrap: wrap;
+    }
+
 }
 @media (max-width: 670px) {
     .contact-info{
@@ -559,6 +702,10 @@ article{
         height: auto;
         margin:  0 auto;
     }
+
+    .article-text-wrapper {
+        width: 60%;
+    }
 }
 @media (max-width: 370px) {
     .our-team-slider-wrapper {
@@ -574,4 +721,38 @@ article{
         height: 220px;
         margin:  0 auto;
     }
+
+    .service-score {
+        width: 88%;
+    }
+
+    .service-score-wrapper {
+        width: 100%;
+    }
+
+    .line-gold {
+        width: 200px;
+    }
+
+    .adw-poster {
+        height: 468px;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .adw-poster-button {
+        width: 260px;
+        color: black;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-wrapper img {
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+    
 }
